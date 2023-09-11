@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Book</title>
+</head>
+<body>
+    
+<header class="container sb-line">
+    <div class="c-line">
+        <a href="index.html"><img class="logo-img" src="img/logo.png" alt="Логотип"></a>
+        <a href="index.html"><h2>NATIONAL LIBRARY<br>OF BELARUS</h2></a>
+    </div>
+    <nav class="nav-links nav-links-line">
+        <a href="about.html"><h2>About</h2></a>
+        <a href="books.html"><h2>Books</h2></a>
+        <a href="events.html"><h2>Events</h2></a>
+        <a href="posts.html"><h2>Blog</h2></a>
+    </nav>
+    <div class="login">
+        <a href="login.html"><h2 class="input-button">Login</h2></a>
+    </div>
+</header>
+
+<div class="container book-page">
+    <div class="sb-line-left">
+        <img src="img/book1.jpg" alt="">
+        <div class="book-text-info">
+            <h1 class="lighter-text">Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch</h1>
+            <h2 class="lighter-text">Terry Pratchett, Neil Gaiman</h2>
+            <h2 class="lighter-text">Horror, Fantasy, Comedy</h2>
+            <h2 class="rating-text lighter-text">5 (86)</h2>
+            <form class="rating-form">
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4"><i class="fas fa-star"></i></label>
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5"><i class="fas fa-star"></i></label>
+                <input class="input-button rating-button" type="submit" value="Rate">
+            </form>
+            <h2 class="lighter-text"><i class="fas fa-check" style="color: #26a269;"></i></i> Available for borrowing</h2>
+            <!--
+            <h2 class="lighter-text"><i class="fas fa-times" style="color: #a23526;"></i></i> Not available for borrowing</h2>
+            -->
+            <div class="edit-delete-line">
+                <a href="edit-book.html"><h2 class="lighter-text white-link">Edit</h2></a>
+                <form class="margin-left-3vh" action="">
+                    <input class="button-link white-link" type="submit" value="Delete">
+                </form>
+            </div>
+        </div>
+    </div>
+    <p>According to The Nice and Accurate Prophecies of Agnes Nutter, Witch (the world's only completely accurate book of prophecies, written in 1655, before she exploded), the world will end on a Saturday. Next Saturday, in fact. Just before dinner.
+        <br><br>So the armies of Good and Evil are amassing, Atlantis is rising, frogs are falling, tempers are flaring. Everything appears to be going according to Divine Plan. Except a somewhat fussy angel and a fast-living demon—both of whom have lived amongst Earth's mortals since The Beginning and have grown rather fond of the lifestyle—are not actually looking forward to the coming Rapture.
+        <br><br>And someone seems to have misplaced the Antichrist . . .</p>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="newsletter-line">
+            <div class="sb-line">
+                <h1>Stay up-to-date with our newsletter</h1>
+                <form class="sb-line" action="">
+                    <input class="input-text" type="text" name="" id="" placeholder="First Name">
+                    <input class="input-text" type="email" name="" id="" placeholder="Email">
+                    <input class="input-button" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <hr class="margin-top-3">
+        <div class="sb-line margin-top-3">
+            <h2 class="author">Developed by Valeryia Matveyeva in 2023</h2>
+            <div class="sb-line icons">
+                <a href=""><i class="fas fa-envelope"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/rating-form.js"></script>
+
+</body>
+</html>
